@@ -231,6 +231,7 @@ export -f moveApplication
 
 function installApp1Password(){
 	# --> Download & Unzip
+	# https://downloads.1password.com/mac/1Password.zip
 	downloadFromUrl "https://downloads.1password.com/mac/1Password.zip" "1PasswordInstaller.zip"
 	unzipFile "1PasswordInstaller.zip"
 	# --> Launch Installer
